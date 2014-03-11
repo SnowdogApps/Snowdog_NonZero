@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<config>
+    <modules>
+        <Snowdog_NonZero>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Snowdog_NonZero>
+    </modules>
+</config>
