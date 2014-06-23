@@ -8,11 +8,9 @@ class Snowdog_NonZero_Model_Observer {
 	public function notificationSendEmail(Varien_Event_Observer $observer) {
 		$event = $observer->getEvent();
 		$notification = $event->getNotification();
-		
-		
 	}
 
-	public function salesQuoteCollectTotalsAfter(Varien_Event_Observer $observer) {
+	public function salesQuoteLoadAfter(Varien_Event_Observer $observer) {
 		$event = $observer->getEvent();
 		$quote = $event->getQuote();
 		/* @var $quote Mage_Sales_Model_Quote */

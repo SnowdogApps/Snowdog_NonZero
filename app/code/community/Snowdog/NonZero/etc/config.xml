@@ -51,15 +51,15 @@
 			</snownonzero>
 		</helpers>
 		<events>
-			<sales_quote_collect_totals_after>
+			<sales_quote_load_after>
 				<observers>
 					<snownonzero_sales_quote_collect_totals_after>
 						<class>snownonzero/observer</class>
-						<method>salesQuoteCollectTotalsAfter</method>
+						<method>salesQuoteLoadAfter</method>
 						<type>singleton</type>
 					</snownonzero_sales_quote_collect_totals_after>
 				</observers>
-			</sales_quote_collect_totals_after>
+			</sales_quote_load_after>
 			<snownonzero_notification_save_after>
 				<observers>
 					<snownonzero_snownonzero_notification_save_after>
